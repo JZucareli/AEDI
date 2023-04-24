@@ -47,7 +47,7 @@ void Merge(Alunos *alunos, int inicio, int meio, int fim){
         k++;
     }
 
-    for(int n = j + 1; n < parteDOIS; n++){
+    for(int n = j ; n < parteDOIS - 1; n++){
         alunos[k] = direito[n];
         k++;
     }
