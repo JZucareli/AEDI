@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 typedef struct Alunos{
-    char nome[21];
+    char nome[50];
     // int numero;
 } Alunos;
 
@@ -47,7 +47,7 @@ void Merge(Alunos *alunos, int inicio, int meio, int fim){
         k++;
     }
 
-    for(int n = j ; n < parteDOIS - 1; n++){
+    for(int n = j; n < parteDOIS - 1; n++){
         alunos[k] = direito[n];
         k++;
     }
