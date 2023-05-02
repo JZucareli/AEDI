@@ -70,14 +70,22 @@ int main(void) {
   }
   printf("\n\n");
 
+   srand(time(NULL));
+  
   for (int i = 0; i < t_values_tam; i++){
     int t = t_values[i]; 
     int array[t]; 
+    //srand(time(NULL));
+    
+    for(int j = 0; j < t; j++){
+      array[j] = rand() % 1000 + 1;
+    }
+    
     clock_t start, end; 
     double cpu_time_used;
 
     start = clock();
-    divide(array, n);
+    divide(array, t);
     end = clock();
 
     cpu_time_used = ((double) (end - start) * 1000 / CLOCKS_PER_SEC); 
