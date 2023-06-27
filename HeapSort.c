@@ -1,3 +1,8 @@
+/*
+Heapsort: algoritmo de ordenação onde os elementos são colocados em uma árvore binária e depois ordenados com base em sua chave, ou seja, transformar um array em um heap onde o pai sempre é maior ou igual aos filhos 
+Complexidade de tempo: O(n log n)
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
