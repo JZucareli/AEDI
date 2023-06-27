@@ -1,3 +1,8 @@
+/*
+Selectionsort: algoritmo de ordenação que divide repetidamente uma lista em duas partes menores com base em um pivo escolhido e, então, ordena as partes menores recursivamente 
+Complexidade de tempo: O(n log n)
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
