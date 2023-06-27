@@ -1,3 +1,8 @@
+/*
+Selectionsort: algoritmo de ordenação que encontra o menor elemento em uma lista e o troca com um elemento não classificado
+Complexidade de tempo: O(n²)
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h> 
