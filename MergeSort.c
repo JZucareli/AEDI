@@ -1,3 +1,8 @@
+/*
+Mergesort: algoritmo de ordenação que divide o conjunto de dados a ser ordenado em partes iguais até que cada parte tenha apenas um elemento, em seguida, mescla essas partes em ordem crescente ou decrescente
+Complexidade de tempo: O(n log n)
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
